@@ -39,12 +39,14 @@ h3 {
   color: #3E8E7E;
 }
 
-p{
-color: #30475E;
-}
-li{
+p {
   color: #30475E;
 }
+
+li {
+  color: #30475E;
+}
+
 .middle-container {}
 
 .bottom-container {}
@@ -87,12 +89,14 @@ li{
 
 .certificate {
   width: 25%;
-  float: left;
-  margin-right: 50px;
+  float: right;
+  margin-left: 50px;
 }
-.picture-of-me{
+
+.picture-of-me {
   width: 20%;
 }
-.skill-list{
+
+.skill-list {
   align-content: center;
 }
