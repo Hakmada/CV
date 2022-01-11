@@ -81,6 +81,7 @@ li {
   margin-bottom: 50px;
 }
 
+
 .website-image {
   width: 25%;
   float: left;
@@ -91,6 +92,9 @@ li {
   width: 25%;
   float: right;
   margin-left: 50px;
+}
+.cert-list{
+  clear: right;
 }
 
 .picture-of-me {
