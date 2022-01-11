@@ -68,7 +68,8 @@ li {
 .contact-me{
   margin-bottom: 5%;
 }
-  .btn {
+
+.btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
@@ -82,9 +83,7 @@ li {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin: auto;
-
-}
+  margin: auto;}
 
 .btn:hover {
   background: #30e3cb;
