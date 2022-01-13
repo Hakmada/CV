@@ -55,6 +55,10 @@ li {
   color: #30475E;
 }
 
+.ecosim a {
+  text-decoration: none;
+  color: #11999e;
+}
 .middle-container {}
 
 .bottom-container {
