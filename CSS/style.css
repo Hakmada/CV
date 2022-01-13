@@ -18,15 +18,16 @@ body {
   font-size: 2.5rem;
   margin: 0 auto 50px auto;
 }
-hr{
-margin: 5% auto;
-width: 5%;
-border-color: #7C99AC;
-border-top-width: 5px;
-border-style: none;
-border-top-style: dotted;
 
+hr {
+  margin: 5% auto;
+  width: 5%;
+  border-color: #7C99AC;
+  border-top-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
 }
+
 h1 {
   font-size: 3rem;
   font-family: 'Sacramento', cursive;
@@ -57,64 +58,63 @@ li {
 
 .ecosim a {
   text-decoration: none;
-  color: #11999e;
+  color: #2F3A8F;
 }
+
+.ecosim a:hover {
+  color: #2bc4ad;
+}
+
 .middle-container {}
 
 .bottom-container {
   background-color: #7C99AC;
-
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.signature{
+.signature {
   margin-bottom: 0;
 }
-.footer-list{
+
+.footer-list {
   list-style: none;
 }
+
 .footer-list a {
-text-decoration: none;
-text-align: center;
-display:block;
-color: #D3DEDC;
+  padding-right: 10px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  color: #D3DEDC;
 }
 
-.footer-link{
-
-}
-
-.contact-me{
+.contact-me {
   margin-bottom: 5%;
 }
 
 .btn {
-  background: #92A9BD;
-  background-image: -webkit-linear-gradient(top, #92A9BD, #11999e);
-  background-image: -moz-linear-gradient(top, #92A9BD, #11999e);
-  background-image: -ms-linear-gradient(top, #92A9BD, #11999e);
-  background-image: -o-linear-gradient(top, #92A9BD, #11999e);
-  background-image: linear-gradient(to bottom, #92A9BD, #11999e);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  margin: auto;}
-
-.btn:hover {
-  background: #2F3A8F;
-  background-image: -webkit-linear-gradient(top, #2F3A8F, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #2F3A8F, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #2F3A8F, #2bc4ad);
-  background-image: -o-linear-gradient(top, #2F3A8F, #2bc4ad);
-  background-image: linear-gradient(to bottom, #2F3A8F, #2bc4ad);
-  text-decoration: none;
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
 }
 
-.IT {
-  text-decoration: underline;
+.btn {
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #30475E;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  display: inline;
+  text-decoration:none;
+}
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 .top-cloud {
@@ -143,7 +143,6 @@ color: #D3DEDC;
   margin-bottom: 50px;
 }
 
-
 .website-image {
   width: 25%;
   float: left;
@@ -155,9 +154,6 @@ color: #D3DEDC;
   float: left;
   margin-right: 50px;
 }
-
-
-
 
 .picture-of-me {
   width: 20%;
