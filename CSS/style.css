@@ -56,6 +56,7 @@ li {
   color: #30475E;
 }
 
+
 .ecosim a {
   text-decoration: none;
   color: #2F3A8F;
@@ -84,6 +85,7 @@ li {
 }
 
 .footer-list a {
+  font-family: 'Montserrat', serif;
   padding-right: 10px;
   float: left;
   text-decoration: none;
@@ -97,7 +99,7 @@ li {
 }
 
 .btn {
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+  background-image: linear-gradient(to right, #7C99AC 0%, #D3DEDC 51%, #7C99AC 100%)
 }
 
 .btn {
@@ -107,7 +109,7 @@ li {
   transition: 0.5s;
   background-size: 200% auto;
   color: #30475E;
-  box-shadow: 0 0 10px #eee;
+  ;
   border-radius: 10px;
   display: inline;
   text-decoration:none;
@@ -116,7 +118,7 @@ li {
 .btn:hover {
   background-position: right center;
   /* change the direction of the change here */
-  color: #fff;
+  color: #161E54;
   text-decoration: none;
 }
 
