@@ -69,12 +69,14 @@ li {
 
 .bottom-container {
   background-color: #7C99AC;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .signature {
   margin-bottom: 0;
+  margin-right: 1%;
+  text-align: right;
 }
 
 .footer-list {
@@ -91,6 +93,7 @@ li {
 
 .contact-me {
   margin-bottom: 5%;
+
 }
 
 .btn {
