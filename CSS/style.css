@@ -1,4 +1,4 @@
-.top-container {
+  .top-container {
   background-color: #e0ebe8;
   padding-top: 100px;
 }
@@ -103,6 +103,8 @@ li {
 }
 
 .btn {
+  font-weight: bold;
+  font-family: 'Montserrat', serif;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
